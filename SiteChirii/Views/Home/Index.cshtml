@@ -1,0 +1,25 @@
+﻿@model SiteChirii.Models.RentModel
+@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.SiteName</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                Orice oferta de chirie trebuie sa fie insotita de poze. Pentru toate regulile de postare a unei chirii cititi sectiunea
+                @Html.ActionLink("Reguli", "Rules", "Home")
+            </p>
+        </div>
+    </section>
+}
+
+<div class="picture-wrapper">
+    @foreach (var image in Model.ImagePaths)
+    {
+            <img class="image-wrapper" src="@Url.Content(image)" alt="100" width="300"/>
+    }
+</div>

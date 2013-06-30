@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteChirii", "SiteChirii\SiteChirii.csproj", "{1FBB63DE-7620-427E-B92D-AAE1B5B8D52A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteChirii.Tests", "SiteChirii.Tests\SiteChirii.Tests.csproj", "{AEFB2DCC-C7FC-438D-A66A-1754C9661195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{9A9972CF-4398-475E-926C-F2239C69A296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChiriiService", "ChiriiService\ChiriiService.csproj", "{77DA7081-A50C-4185-ADF3-2BA33FC2EB28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FBB63DE-7620-427E-B92D-AAE1B5B8D52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBB63DE-7620-427E-B92D-AAE1B5B8D52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBB63DE-7620-427E-B92D-AAE1B5B8D52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBB63DE-7620-427E-B92D-AAE1B5B8D52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFB2DCC-C7FC-438D-A66A-1754C9661195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFB2DCC-C7FC-438D-A66A-1754C9661195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFB2DCC-C7FC-438D-A66A-1754C9661195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFB2DCC-C7FC-438D-A66A-1754C9661195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9972CF-4398-475E-926C-F2239C69A296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9972CF-4398-475E-926C-F2239C69A296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9972CF-4398-475E-926C-F2239C69A296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9972CF-4398-475E-926C-F2239C69A296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DA7081-A50C-4185-ADF3-2BA33FC2EB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DA7081-A50C-4185-ADF3-2BA33FC2EB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DA7081-A50C-4185-ADF3-2BA33FC2EB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DA7081-A50C-4185-ADF3-2BA33FC2EB28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
